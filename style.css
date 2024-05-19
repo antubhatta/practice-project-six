@@ -114,3 +114,228 @@ padding-left: 32px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/* date section */
+.date-container{
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 110px;
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.date-details{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 5px;
+}
+.place{
+    padding-top: 80px;
+}
+.span-date{
+    color: #FF0000;
+}
+.date-button{
+    border-radius: 8px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+border: 0;
+padding: 12px 20px 12px 20px;
+}
+.date-btn{
+    padding-top: 50px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+/* offer section */
+.offer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer-title{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-top: 84px;
+margin-bottom: 16px;
+}
+.offer-sub-title{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 900;
+margin-bottom: 22px;
+}
+.offer-desc{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+width: 393px;
+margin-bottom: 84px;
+}
+.offer-photo{
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+padding: 35px;
+width: 364.84px;
+height: 364.84px;
+}
+.opper-d{
+    width: 276px;
+    margin-bottom: 30px;
+}
+.offer-year{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 16px;
+padding-top: 92px;
+}
+.o-img{
+    margin-bottom: 110px;
+}
+/* gifts section */
+.gift-desc{
+    margin-bottom: 48px;
+    width: 896px;
+}
+.gift-container{
+    max-width: 1140px;
+    margin: auto;
+}
+.gift-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 110px;
+    
+}
+.gift-photo{
+    width: 370px;
+}
+/* subscribe section */
+.subscribe-container{
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-bottom: 110px;
+}
+.subscribe-img{
+    padding-top: 70px;
+    margin-bottom: 30px;
+    
+}
+.subscribe-photo{
+    text-align: center;
+}
+.subscribe-title{
+    font-family: Merriweather;
+font-size: 40px;
+font-weight: 900;
+margin-bottom: 20px;
+text-align: center;
+}
+.subscribe-desc{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin: auto;
+width: 800px;
+text-align: center;
+}
+form{
+    margin-top: 40px;
+}
+.form-container{
+    text-align: center;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-mail{
+    border-radius: 50px;
+background: rgb(255, 255, 255);
+padding: 18px 300px 18px 30px;
+border: 0;
+}
+.form-btn{
+    border-radius: 0px 50px 50px 0px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+padding: 15px 40px 15px 46px;
+border: 0px;
+margin-left: -40px;
+}
+/* footer section */
+footer{
+    background-color: black;
+    
+}
+.container-one-address{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+width: 375px;
+}
+.call{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 8px;
+
+
+}
+.footer-container-one{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+padding-bottom: 90px;
+
+    
+}
+.footer-container-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+}
+.footer-img{
+    width: 45px;
+}
+.footer-desc{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.footer-container-three{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
